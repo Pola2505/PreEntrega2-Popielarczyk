@@ -2,7 +2,9 @@
     margin:0;
     padding:0;
 }
-#karuzela{
-    margin:auto;
-    padding:auto;
+@media(min-width:1025px){ /*para cambiar su tamano en el desktop y notebook, porque me parecia demasiado grande */
+    #carousel1,#carousel2,#carousel3{
+        width:1000px;
+        height:600px;
+            }
 }
