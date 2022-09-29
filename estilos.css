@@ -55,5 +55,40 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: rgb(213, 232, 212);
     padding: 20px;
-    margin:auto;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    padding: 50px 10px;
+    background-color: #adc9ae;
+}
+
+footer ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    flex-basis: 20%;
+    text-decoration: none;
+}
+
+footer p {
+    flex-basis: 80%;
+    font-size: 16px;
+}
+
+footer ul li {
+    flex-grow: 1;
+}
+
+select option {
+    background-color: #465f47;
+    color: white;
+
+}
+
+
+select:hover {
+    color: white;
+    background: #465f47;
 }
