@@ -7,6 +7,7 @@
 #sobreMi {
     padding: 30px 60px 30px 60px;
 
+
 }
 
 h3 {
@@ -91,4 +92,8 @@ select option {
 select:hover {
     color: white;
     background: #465f47;
+}
+.logo:hover{
+    height: 120px;
+    width:auto;
 }
