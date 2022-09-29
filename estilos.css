@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#sobreMi {
+#sobreMi,#nuestrasRecetas {
     padding: 30px 60px 30px 60px;
 
 
@@ -80,7 +80,18 @@ footer p {
 
 footer ul li {
     flex-grow: 1;
+
 }
+
+footer ul li a {
+    color: darkslategrey;
+    font-size: 20px;
+}
+
+footer ul li a:hover {
+    color: #465f47
+}
+
 
 select option {
     background-color: #465f47;
@@ -88,12 +99,28 @@ select option {
 
 }
 
-
 select:hover {
     color: white;
     background: #465f47;
 }
-.logo:hover{
+
+.logo:hover {
     height: 120px;
-    width:auto;
+    width: auto;
+}
+#img__logo{
+    display:block;
+    margin:auto;
+
+}
+h4 i{
+    color:#6aa46c;
+   
+
+}
+#h4Centrado{
+    display:block;
+    text-align:center;
+    margin:auto;
+    padding:20px 10px 5px 10px;
 }
