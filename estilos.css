@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-#sobreMi,#nuestrasRecetas {
+#sobreMi,
+#nuestrasRecetas {
     padding: 30px 60px 30px 60px;
 
 
@@ -108,19 +109,32 @@ select:hover {
     height: 120px;
     width: auto;
 }
-#img__logo{
-    display:block;
-    margin:auto;
+
+#img__logo {
+    display: block;
+    margin: auto;
 
 }
-h4 i{
-    color:#6aa46c;
-   
+
+h4 i {
+    color: #6aa46c;
+
 
 }
-#h4Centrado{
-    display:block;
-    text-align:center;
-    margin:auto;
-    padding:20px 10px 5px 10px;
+
+#h4Centrado {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 20px 10px 5px 10px;
 }
+
+.slide {
+    margin-top: 10px;
+
+}
+
+.slide img {
+    height: 65vh;
+}
+
